@@ -13,13 +13,13 @@ p {
 
 @font-face {
   font-family: OpenSans;
-  src: url("./font/OpenSans.ttf") format("woff");
+  src: url("/font/OpenSans.ttf") format("woff");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: Lemon;
-  src: url("./font/LEMONMILK-Medium.ttf") format("woff");
+  src: url("/font/LEMONMILK-Medium.ttf") format("woff");
   font-style: normal;
   font-weight: normal;
 }
