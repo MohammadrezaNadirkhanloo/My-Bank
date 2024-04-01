@@ -26,7 +26,7 @@ p {
 
 body {
   background-color: var(--color_background) !important;
-  font-family: OpenSans;
+  font-family: OpenSans !important;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -69,13 +69,11 @@ section {
 /* style Scrollbar */
 ::-webkit-scrollbar {
   width: 5px;
-  
 }
 /* Track */
 ::-webkit-scrollbar-track {
   background: transparent;
   margin-top: 70px;
-
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -90,3 +88,4 @@ section {
 ::-webkit-scrollbar-thumb:hover {
   background: #6c6c6c;
 }
+
