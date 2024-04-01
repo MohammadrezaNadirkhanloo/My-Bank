@@ -13,7 +13,7 @@ p {
 
 @font-face {
   font-family: OpenSans;
-  src: url("../font/OpenSans.ttf") format("truetype");
+  src: url("../font/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
