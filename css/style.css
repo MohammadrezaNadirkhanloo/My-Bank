@@ -1,4 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 0 !important;
+}
+:root {
+  --color_background: #ebebeb;
+  --color_main: #6dc576;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(/font/OpenSans.ttf) format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: Lemon;
+  src: url(/font/LEMONMILK-Medium.ttf) format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-color: var(--color_background) !important;
+  font-family: OpenSans;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section {
+  flex-grow: 1;
+}
+
 .bg_nav {
-    backdrop-filter: blur(11px);
-  }
+  backdrop-filter: blur(20px);
+}
+.title_nav {
+  font-family: Lemon !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.title_head::before {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+}
+
+.text_color {
+  color: var(--color_main) !important;
+}
+
+/* style Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
   
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin-top: 70px;
+
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--color_main);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6c6c6c;
+}
