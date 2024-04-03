@@ -89,3 +89,7 @@ section {
   background: #6c6c6c;
 }
 
+.form-control:focus {
+  border-color: var(--color_main) !important;
+  box-shadow: 0 0 0 0.25rem rgba(15, 218, 49, 0.25) !important;
+}
