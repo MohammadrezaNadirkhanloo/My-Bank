@@ -93,3 +93,19 @@ section {
   border-color: var(--color_main) !important;
   box-shadow: 0 0 0 0.25rem rgba(15, 218, 49, 0.25) !important;
 }
+
+section {
+  transition: transform 1s, opacity 1s !important;
+  -webkit-transition: transform 1s, opacity 1s !important;
+  -moz-transition: transform 1s, opacity 1s !important;
+  -ms-transition: transform 1s, opacity 1s !important;
+  -o-transition: transform 1s, opacity 1s !important;
+}
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+  -webkit-transform: translateY(8rem);
+  -moz-transform: translateY(8rem);
+  -ms-transform: translateY(8rem);
+  -o-transform: translateY(8rem);
+}
